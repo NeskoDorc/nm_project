@@ -1,1 +1,34 @@
 $font-color: rgb(100, 100, 100);
+$back-color: rgba(233, 233, 233, 1);
+$grey-color: rgb(117, 117, 117);
+$green-light-color: rgba(188, 213, 70, 1);
+$green-focus-color: rgba(66, 144, 153, 1);
+$blue-visited-color: rgba(19, 117, 184, 1);
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: #fff;
+    overflow-x: hidden;
+    line-height: 1.2;
+    min-width: 320px;
+    min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+    padding: 0;
+    color: $font-color;
+}
+
+.container {
+    display: grid;
+}
+
+.flex {
+    display: flex;
+}
