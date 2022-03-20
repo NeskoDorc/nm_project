@@ -49,7 +49,7 @@ export default {
     margin: 1rem 0;
 
     .container {
-      
+      display: grid;
       grid-template-columns: repeat(6, 1fr);
       grid-template-rows: repeat(4, auto);
       row-gap: 50px;
