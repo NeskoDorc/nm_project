@@ -1,8 +1,9 @@
 
 module.exports = {
 
-  publicPath:"nm-test",
-
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/my-project/'
+    : '/',
 
     css: {
       loaderOptions: {
